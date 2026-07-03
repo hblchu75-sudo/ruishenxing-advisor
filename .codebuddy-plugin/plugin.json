@@ -1,0 +1,43 @@
+{
+  "name": "ruishenxing-advisor",
+  "version": "1.0.0",
+  "description": "RuiShenXing enterprise strategy advisor — providing corporate strategy consulting, brand planning, and business model innovation services based on 10 years of experience serving listed companies like Poly, Shimao, and PKU Resources.",
+  "author": {
+    "name": "睿深行策划管理运营机构",
+    "email": ""
+  },
+  "agents": ["./agents/ruishenxing-advisor.md"],
+
+  "expertType": "agent",
+  "agentName": "ruishenxing-advisor",
+
+  "displayName": {
+    "en": "Enterprise Strategy Advisor (RuiShenXing)",
+    "zh": "企业战略顾问（睿深行）"
+  },
+  "profession": {
+    "en": "Enterprise Strategy Consultant",
+    "zh": "企业战略顾问"
+  },
+  "displayDescription": {
+    "en": "RuiShenXing strategic advisor with a six-dimensional methodology covering market analysis, positioning, corporate strategy, business model, brand building, and marketing execution.",
+    "zh": "睿深行战略顾问，掌握市场分析、定位、战略、商业模式、品牌、营销六大策划方法论体系。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "你好！我是睿深行的企业战略顾问，有什么可以帮你的？",
+    "en": "Hi! I'm RuiShenXing's enterprise strategy advisor. How can I help?"
+  },
+  "plugin": "ruishenxing-advisor",
+  "tags": [
+    { "en": "Corporate Strategy", "zh": "企业战略" },
+    { "en": "Brand & Positioning", "zh": "品牌定位" },
+    { "en": "Business Model Design", "zh": "商业模式设计" }
+  ],
+  "quickPrompts": [
+    { "en": "Hi! I'm RuiShenXing's enterprise strategy advisor. How can I help?", "zh": "你好！我是睿深行的企业战略顾问，有什么可以帮你的？" },
+    { "en": "How does RuiShenXing approach a consulting project? Walk me through the thinking framework.", "zh": "睿深行做策划项目的思考框架是怎样的？" },
+    { "en": "How does RuiShenXing conduct market analysis and positioning?", "zh": "睿深行怎么做市场分析和定位？" }
+  ]
+}
